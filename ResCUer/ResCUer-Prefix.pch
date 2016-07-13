@@ -1,0 +1,24 @@
+//
+//  ResCUer-Prefix.pch
+//  ResCUer
+//
+//  Created by LiuYang on 4/14/16.
+//  Copyright © 2016 LiuYang. All rights reserved.
+//
+
+#ifndef ResCUer_Prefix_pch
+#define ResCUer_Prefix_pch
+
+#import <QuartzCore/QuartzCore.h>
+#import <CoreLocation/CLLocation.h>
+#import <MapKit/MapKit.h>
+
+#ifdef __OBJC__
+    #define PHONE_NUMBER (@"phoneNumber")
+    #define HOME_ADDR (@"homeAddr")
+    #define NUMBERS @"0123456789\n"
+    #define POLICE_NUMBER (@"911")
+    #define TAXI_NUMBER (@"6072777777")
+#endif
+
+#endif /* ResCUer_Prefix_pch */
